@@ -1,0 +1,56 @@
+{
+    "name": "VMGSAUBUN05",
+    "id": "/subscriptions/57f17e2d-dd15-41a8-a246-3462bdd80bca/resourceGroups/VMGSAUBUN05/providers/Microsoft.Compute/virtualMachines/VMGSAUBUN05",
+    "type": "Microsoft.Compute/virtualMachines",
+    "location": "eastus",
+    "properties": {
+        "vmId": "50a19f02-5f31-4ce2-b8d8-c34658683fc1",
+        "hardwareProfile": {
+            "vmSize": "Standard_D2s_v3"
+        },
+        "storageProfile": {
+            "imageReference": {
+                "publisher": "Canonical",
+                "offer": "UbuntuServer",
+                "sku": "18.04-LTS",
+                "version": "latest"
+            },
+            "osDisk": {
+                "osType": "Linux",
+                "name": "VMGSAUBUN05",
+                "createOption": "FromImage",
+                "caching": "ReadWrite",
+                "managedDisk": {
+                    "storageAccountType": "Premium_LRS",
+                    "id": "/subscriptions/57f17e2d-dd15-41a8-a246-3462bdd80bca/resourceGroups/VMGSAUBUN05/providers/Microsoft.Compute/disks/VMGSAUBUN05"
+                },
+                "diskSizeGB": 30
+            },
+            "dataDisks": []
+        },
+        "osProfile": {
+            "computerName": "VMGSAUBUN05",
+            "adminUsername": "azureuser",
+            "linuxConfiguration": {
+                "disablePasswordAuthentication": true,
+                "ssh": {
+                    "publicKeys": [
+                        {
+                            "path": "/home/azureuser/.ssh/authorized_keys",
+                            "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDUZX7XlPV+tnSeg1SXsitKRKFii2bGWRKkmpiFrovERTBjzIP5vvbhH5Gdq+BnSFtVlWiwCf//7FB2RhRitzZQhVk175zEOBKUq3FApd+FrlfziXvODSBQpi+cyUBMlOfFr90yPwrDfN+dZ78AzlAirN7ELbpxCPIbiixCeOHra0bqmhzKi35IYVjA87rXuHQtuK6RM5Vz/wmGfDa2qJXTVbvnxp3XOuekgpgdHVdkkLD1S9cazY6mKdWsxMfGRGQhN4yL3UwyueGi+d7fcLaYKnaKqJAbvGnCUgS50TOjgg5A6AVucNuL717sqI0ecc2vNeWNemES3/HeOqb1RFzoWe8J5o0qS2ng1AQ2yo1S8+ok+HJIgANB2HQ+HQ42NjUuFAmBqUJBjNS72RDNz3w3DcbgM42Y4idkek6lirBX52H5zQAdpEY0DC1+sndD0mTVcgTgkta+8fma+BQnFbght62IlOdygB1Lott/TXoXTMm6bPEXvtkSlqcUGCCU1GwSCDQzUr7QrW8SK1efXcdQlZgRaBfBPG2DjzcepK0rJqd8Cz8SBHYEpuIA8KYhLexcmv7svKrm03Y6Oji2EpXWCLXkNdyCepRu5cdRqbwKdV/xLwFv5o4lCFuavap5KNblFMIgkvvXSyaJhogg8SarSRYR4ive7tlvTW8G3NHXqw== asus@DESKTOP-34JAAOQ\r\n"
+                        }
+                    ]
+                }
+            },
+            "secrets": []
+        },
+        "networkProfile": {
+            "networkInterfaces": [
+                {
+                    "id": "/subscriptions/57f17e2d-dd15-41a8-a246-3462bdd80bca/resourceGroups/VMGSAUBUN05/providers/Microsoft.Network/networkInterfaces/VMGSAUBUN05728"
+                }
+            ]
+        },
+        "provisioningState": "Succeeded"
+    }
+}
