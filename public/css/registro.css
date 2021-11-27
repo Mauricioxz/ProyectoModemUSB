@@ -1,0 +1,171 @@
+body {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  margin: auto;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+a:visited{
+  color:blue;
+}
+
+.cabezera {
+  width: 100%;
+  height: 80px;
+  background-color: #2b78e4;
+}
+
+.contenido {
+  width: 100%;
+  background-color: white;
+  margin: auto;
+}
+
+.pie {
+  width: 100%;
+  height: 30px;
+  background-color: whitesmoke;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  border-top: 1px solid black;
+}
+
+i {
+  font-size: 50px;
+}
+
+.tamañocuadro {
+  width: 350px;
+  height: 27px;
+}
+
+.fa-male {
+  color: #2b78e4;
+  padding-left: 105px;
+}
+
+.fa-female {
+  color: #2b78e4;
+  padding-left: 120px;
+}
+
+.hombre {
+  padding-left: 70000px;
+}
+
+.tamañoboton {
+  background-color: white;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-left: 45%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid black;
+}
+
+.subtitulo {
+  font-size: 18px;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.caja1 {
+  margin-left: 2.5%;
+  width: 400px;
+  height: 450px;
+  background-color: white;
+}
+
+.caja2 {
+  margin: auto;
+  margin-top: -450px;
+  width: 400px;
+  height: 450px;
+  background-color: white;
+}
+
+.caja3 {
+  margin-left: 70%;
+  margin-top: -470px;
+  width: 400px;
+  height: 450px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 40px;
+  color: #2b78e4;
+  text-decoration: underline;
+}
+
+.line1 {
+  border-left: 3px solid black;
+  height: 450px;
+  margin-left: 33%;
+  margin-top: -450px;
+}
+.line2 {
+  border-left: 3px solid black;
+  height: 450px;
+  margin-left: 66%;
+  margin-top: -450px;
+}
+
+.mizquierda {
+  text-align: left;
+  vertical-align: auto;
+  margin-left: 10px;
+  padding-top: 10px;
+  font-size: 40px;
+  font-style: italic;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+.mderecha {
+  text-align: right;
+  padding-right: 10px;
+  margin-top: -50px;
+  font-size: 30px;
+}
+
+header .mderecha a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 30px;
+  color: #2b78e4;
+  text-decoration: underline;
+}
+
+.caja1 .radio {
+  margin-left: 19%;
+}
+
+.tamañoselector{
+  width: 358px;
+  height: 35px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  max-width: 9;
+}
+.cliente{
+  width: 80px;
+  height: 80px;
+}.cliente{
+  width: 80px;
+  height: 80px;
+  margin-left: 94%;
+}
